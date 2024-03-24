@@ -1,0 +1,19 @@
+{
+  "name": "real-estate-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+   "dev": "nodemon api/index.js",
+   "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "expess": "^0.0.1-security",
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0"
+  }
+}

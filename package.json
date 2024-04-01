@@ -17,7 +17,6 @@
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.4.5",
-    "expess": "^0.0.1-security",
     "express": "^4.19.1",
     "js": "^0.1.0",
     "jsonwebtoken": "^9.0.2",

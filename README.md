@@ -4,7 +4,6 @@
 
 # Real Estate Web Application (MERN Stack)
 
-![Real Estate Web Application](link_to_screenshot)
 
 ## Description
 

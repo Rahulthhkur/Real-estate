@@ -7,12 +7,19 @@ const listingRouter = require('./routes/lisiting.route.js');
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const path = require('path');
+const corsConfig ={
+    origin: "*",
+    credential: true,
+    methods: ["GET", "POST", "PUT", "DELETE"],
+}
+app.options("", cors(corsConfig));
+app.use(cors());
 
 dotenv.config();
 
 const app= express();
 
-app.use(cors());
+
 
 mongoose.connect(process.env.MONGO, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
